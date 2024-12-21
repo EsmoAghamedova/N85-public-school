@@ -1,0 +1,107 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logoo {
+    height: 200px;
+    width: 200px;
+
+}
+
+header {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown button {
+    background-color: rgb(77, 151, 48);
+    border: none;
+}
+
+.dropdown button:hover {
+    background-color: rgb(77, 151, 48);
+}
+
+.dropdown button:active {
+    background-color: rgb(77, 151, 48);
+}
+
+.dropdown button:focus {
+    background-color: rgb(77, 151, 48);
+}
+
+.carousel {
+    width: 80%;
+}
+
+.carousel-inner {
+
+    border-radius: 30px;
+
+}
+
+.banner {
+    width: 85%;
+    /* კონტეინერის სიგანე */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e8f5e9;
+    /* ღია მწვანე ფონი */
+    border: 2px solid #a5d6a7;
+    /* მწვანე საზღვარი */
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #2e7d32;
+    /* მუქი მწვანე სათაური */
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    /* მარცხნივ და მარჯვნივ განლაგება */
+    margin: 20px 0;
+}
+
+.section {
+    width: 48%;
+    /* თითო სექციის სიგანე */
+    background-color: #ffffff;
+    /* თეთრი ფონი */
+    border: 1px solid #c8e6c9;
+    /* საზღვარი */
+    border-radius: 6px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.right {
+    text-align: right;
+    /* მარჯვნივ ტექსტი */
+}
+
+.left {
+    text-align: left;
+    /* მარცხნივ ტექსტი */
+}
+
+h2 {
+    color: #388e3c;
+    /* სათაურისთვის ღია მწვანე ფერი */
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+}
